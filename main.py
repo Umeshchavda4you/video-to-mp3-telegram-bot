@@ -5,9 +5,9 @@ from pyrogram.types import Message
 import aiofiles
 import subprocess
 
-API_ID = int(os.getenv("API_ID", "123456"))  # Replace with your actual API_ID
-API_HASH = os.getenv("API_HASH", "your_api_hash")  # Replace with your actual API_HASH
-BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token")  # Replace with your bot token
+API_ID = int(os.getenv("API_ID", "1310650"))  # Replace with your actual API_ID
+API_HASH = os.getenv("API_HASH", "8b85f95e0e07d0aee4fa812ce9ea46f4")  # Replace with your actual API_HASH
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7756547155:AAFZlx3EX42GIsxj_Y-hiX5lIiBEutxFHqQ")  # Replace with your bot token
 
 app = Client("video_to_audio_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
