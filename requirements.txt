@@ -1,2 +1,1 @@
-python-telegram-bot==20.7
-moviepy==1.0.3
+AttributeError: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
